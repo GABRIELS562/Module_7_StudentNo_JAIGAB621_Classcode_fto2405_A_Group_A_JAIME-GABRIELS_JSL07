@@ -100,7 +100,18 @@ h1, .modal-content h2, .modal-content p {
 
 /* Adding a fancy border to the certificate content */
 #certificateContent {
-  background: #f9f9f9 url('path/to/your/decorative-border-image.png') center/contain no-repeat;
+  background-color: grey; 
+  position: relative;
+  text-align: center; 
+  background: #808080 url(logo.png) no-repeat center center;;
+  background-size: contain;
+  padding: 50px;
+  height:500px; 
+
+  #certificateContent h3, #certificateContent p {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
 }
 
 /* Adjust button styles to fit the theme */
